@@ -1,5 +1,5 @@
 {
-  "name": "bun-hono-drizzle-postgres",
+  "name": "railway-rest-api-with-db",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
