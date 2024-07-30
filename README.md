@@ -2,6 +2,8 @@
 
 A powerful Hono Backend with Drizzle and Postgres for Node.js/Bun
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/hIiRi5?referralCode=CODE)
+
 ## Overview
 
 This project demonstrates a robust REST API built with Hono, using Drizzle ORM for database operations with PostgreSQL. It's designed to run on Bun, providing a fast and efficient backend solution. The project structure allows for easy deployment on Railway, making it ideal for rapid development and scaling.
