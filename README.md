@@ -84,3 +84,4 @@ Remember to set the `DATABASE_URL` environment variable in your Railway projec
 - [Drizzle ORM Documentation](https://orm.drizzle.team/)
 - [Bun Documentation](https://bun.sh/docs)
 - [Railway Documentation](https://docs.railway.app/)
+- [Repository](https://github.com/aeither/railway-rest-api-with-db)
