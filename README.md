@@ -85,3 +85,4 @@ Remember to set the `DATABASE_URL` environment variable in your Railway projec
 - [Bun Documentation](https://bun.sh/docs)
 - [Railway Documentation](https://docs.railway.app/)
 - [Repository](https://github.com/aeither/railway-rest-api-with-db)
+- [Railway Marketplace](https://railway.app/template/hIiRi5)
