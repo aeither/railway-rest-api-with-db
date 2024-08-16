@@ -2,6 +2,12 @@
   "name": "railway-rest-api-with-db",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "railway run bun run --watch src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:seed": "bun run src/db/seed.ts"
+  },
   "devDependencies": {
     "@types/pg": "^8.11.6",
     "bun-types": "latest",
@@ -14,11 +20,5 @@
     "drizzle-orm": "^0.32.1",
     "hono": "^4.5.3",
     "pg": "^8.12.0"
-  },
-  "scripts": {
-    "dev": "bun run --watch src/index.ts",
-    "db:generate": "drizzle-kit generate",
-    "db:push": "drizzle-kit push",
-    "db:seed": "bun run src/db/seed.ts"
   }
 }
