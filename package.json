@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "railway run bun run --watch src/index.ts",
-    "db:generate": "drizzle-kit generate",
-    "db:push": "drizzle-kit push",
+    "db:generate": "railway run drizzle-kit generate",
+    "db:push": "railway run drizzle-kit push",
     "db:seed": "bun run src/db/seed.ts"
   },
   "devDependencies": {

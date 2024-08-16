@@ -1,14 +1,15 @@
 import { defineConfig } from "drizzle-kit";
 
-if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL is undefined");
-}
+const url =
+  process.env.NODE_ENV === "development"
+    ? process.env.DATABASE_PUBLIC_URL!
+    : process.env.DATABASE_URL!;
 
 export default defineConfig({
   schema: "./src/db/schema.ts",
   out: "./drizzle",
   dialect: "postgresql",
   dbCredentials: {
-    url: process.env.DATABASE_URL,
+    url: url,
   },
 });
