@@ -71,7 +71,7 @@ railway init
 To deploy the bot on Railway:
 
 ```bash
-railway up
+railway up --detach
 ```
 
 Remember to set the `DATABASE_URL` environment variable in your Railway project settings.
