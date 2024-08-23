@@ -78,10 +78,6 @@ To deploy the bot on Railway:
 railway up --detach
 ```
 
-Remember to set the `DATABASE_URL` environment variable in your Railway project settings.
-
-![DATABASE_URL](https://github.com/user-attachments/assets/eab66d70-ebe5-42fa-b1dd-3859cdbc199a)
-
 ## Learn More
 
 - [Hono Documentation](https://hono.dev/)
