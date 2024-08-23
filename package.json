@@ -6,7 +6,8 @@
     "dev": "railway run bun run --watch src/index.ts",
     "db:generate": "railway run drizzle-kit generate",
     "db:push": "railway run drizzle-kit push",
-    "db:seed": "railway run bun run src/db/seed.ts"
+    "db:seed": "railway run bun run src/db/seed.ts",
+    "beup": "bun run db:generate && bun run db:push && railway up --detach"
   },
   "devDependencies": {
     "@types/pg": "^8.11.6",
