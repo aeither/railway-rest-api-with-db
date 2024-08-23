@@ -26,11 +26,13 @@ To install dependencies:
 bun install
 ```
 
-Set up your .env file with your database URL:
+Initialize your project:
 
 ```bash
-DATABASE_URL=your_postgres_url_here
+railway init
 ```
+
+Open the link and deploy `REST API with DB` on Railway
 
 ## DB
 
@@ -60,13 +62,15 @@ To run the application locally, execute the following command in your terminal:
 bun run dev
 ```
 
-## Deploy
+## Test
 
-Initialize your project:
+Open URL in the browser
 
 ```bash
-railway init
+http://localhost:3001/users
 ```
+
+## Deploy
 
 To deploy the bot on Railway:
 
